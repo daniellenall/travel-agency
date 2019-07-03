@@ -1,12 +1,14 @@
 header {
+    background: linear-gradient(#0F2027, #2C5364);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 100px 0;
 
+
     h2 {
         a {
-            color: pink;
+            color: darken(#203A43, 50%);
         }
     }
 }

@@ -17,12 +17,18 @@ a {
     opacity: 1; }
 
 header {
+  background: linear-gradient(#0F2027, #2C5364);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 35px 100px 0; }
   header h2 a {
-    color: pink; }
+    color: black; }
 
 nav {
-  list-style: none; }
+  list-style: none;
+  display: flex; }
+  nav li {
+    margin: 0 15px; }
+    nav li a {
+      color: #FFF; }
