@@ -22,11 +22,11 @@
       <div class="hero-content">
           <h1>Come with us on a journey through time and space</h1>
           <h2>Some description text</h2>
-          <a class="btn">Contact Us</a>
+          <a href="#" class="btn">Contact Us</a>
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <h2>About</h2>
       <p class="paragraph">
         The Time Travel Agency started from humble beginnings with a time machine built in our founder's backyard.
@@ -36,7 +36,7 @@
       </p>
     </section>
 
-    <section class="destinations">
+    <section id="destinations" class="destinations">
       <h2>Destinations</h2>
       <p class="paragraph">
           We're a time travel company, you can be literally anywhere at any time.
@@ -50,11 +50,18 @@
       </p>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <h2>Contact</h2>
       <p class="paragraph">
         Want to discuss a trip with us?
       </p>
+      <form>
+          <label for="time">Where?</label>
+        <input name="location" id="location" placeholder="The beginning of time" type="text"/>
+        <label for="time">When?</label>
+        <input name="time" id="time" type="date">
+        <button class="btn">Send</button>
+      </form>
     </section>
 
     <footer class="footer">
