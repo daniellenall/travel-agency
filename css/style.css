@@ -4,11 +4,11 @@
   margin: 0;
   box-sizing: border-box; }
 
-html {
-  font-size: 1em; }
-
 body {
   font-family: 'Raleway'; }
+
+section {
+  padding: 15px 30px; }
 
 a {
   text-decoration: none;
@@ -16,14 +16,28 @@ a {
   a:hover {
     opacity: 1; }
 
+.paragraph {
+  margin-bottom: 7px;
+  text-align: justify; }
+  .paragraph:last-child {
+    margin-bottom: 0; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 header {
-  background: linear-gradient(#0F2027, #2C5364);
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 100px 0; }
+  padding: 35px 100px 0;
+  animation: 1s fade-in; }
   header h2 a {
-    color: black; }
+    color: #EEE; }
 
 nav {
   list-style: none;
@@ -31,4 +45,35 @@ nav {
   nav li {
     margin: 0 15px; }
     nav li a {
-      color: #FFF; }
+      color: #EEE; }
+
+.hero {
+  position: relative;
+  background: linear-gradient(#0F2027, #2C5364);
+  background-image: url("img/space.jpg") cover;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  z-index: -1; }
+  .hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EEE; }
+    .hero .hero-content h2 {
+      font-weight: 400; }
+
+.footer {
+  background-color: #0F2027;
+  color: #EEE;
+  width: 100%; }
+
+.btn {
+  border: none;
+  padding: 10px 40px;
+  background-color: #0F2027;
+  border-radius: 15px; }
+  .btn:hover {
+    opacity: 0.75;
+    color: pink; }

@@ -1,14 +1,16 @@
 header {
-    background: linear-gradient(#0F2027, #2C5364);
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 100px 0;
+    animation: 1s fade-in;
 
 
     h2 {
         a {
-            color: darken(#203A43, 50%);
+            color: $text-light;;
         }
     }
 }

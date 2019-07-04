@@ -6,3 +6,12 @@ a {
         opacity: 1;
     }
 }
+
+.paragraph {
+    margin-bottom: 7px;
+    text-align: justify;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
