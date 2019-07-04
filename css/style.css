@@ -89,6 +89,10 @@ nav {
   padding: 10px 40px;
   margin: 50px 5px;
   background-color: #0F2027;
-  border-radius: 15px; }
+  border-radius: 15px;
+  outline: none;
+  display: block;
+  color: #EEE; }
   .btn:hover {
-    opacity: 0.75; }
+    transition: ease-in 1s;
+    opacity: 0.5; }

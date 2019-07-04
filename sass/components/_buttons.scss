@@ -4,8 +4,12 @@
     margin: 50px 5px;
     background-color: $dark-blue;
     border-radius: 15px;
+    outline: none;
+    display: block;
+    color: $text-light;
 
     &:hover {
-        opacity: 0.75;
+        transition: ease-in 1s;
+        opacity: 0.5;
     }
 }
