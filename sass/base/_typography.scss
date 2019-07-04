@@ -1,6 +1,14 @@
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     opacity: 0.75;
+    color: inherit;
 
     &:hover {
         opacity: 1;

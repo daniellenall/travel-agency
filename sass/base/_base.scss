@@ -10,5 +10,14 @@ body {
 }
 
 section {
-    padding: 15px 30px;
+    padding: 15px 50px;
+
+    &:not(.hero) {
+        
+        &:nth-child(odd) {
+            background-color: $light-blue;
+            color: $text-light;
+        }
+    }
+
 }

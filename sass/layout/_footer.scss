@@ -2,4 +2,10 @@
     background-color: $dark-blue;
     color: $text-light;
     width: 100%;
+    padding: 10px 50px;
+
+    .copy {
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
