@@ -18,7 +18,8 @@ a {
 .paragraph {
     margin-bottom: 7px;
     text-align: justify;
-
+    margin: 0 auto;
+    
     &:last-child {
         margin-bottom: 0;
     }

@@ -28,7 +28,8 @@ a {
 
 .paragraph {
   margin-bottom: 7px;
-  text-align: justify; }
+  text-align: justify;
+  margin: 0 auto; }
   .paragraph:last-child {
     margin-bottom: 0; }
 
@@ -45,7 +46,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 35px 100px 0;
-  animation: 1s fade-in; }
+  animation: 1s fade-in;
+  z-index: 1; }
   header h2 a {
     color: #EEE; }
 
@@ -64,7 +66,7 @@ nav {
   justify-content: center;
   text-align: center;
   min-height: 100vh;
-  z-index: -1; }
+  z-index: 0; }
   .hero .hero-content {
     position: absolute;
     top: 50%;
@@ -73,7 +75,8 @@ nav {
     color: #EEE;
     animation: fade-in 2s; }
     .hero .hero-content h2 {
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 1rem; }
 
 .footer {
   background-color: #0F2027;
